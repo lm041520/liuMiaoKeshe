@@ -9,6 +9,7 @@ public class translation {
         HashMap<String, String> hs = new HashMap<>();
         hs.put("hello", "你好");
         hs.put("china", "中国");
+        System.out.println("hello");
         hs.put("love", "爱");
         hs.put("I", "我");
         hs.put("i", "我");
