@@ -18,6 +18,8 @@ public class translation {
         hs.put("everday", "每一天");
         hs.put("everday", "每一天");
         hs.put("everday", "每一天");
+        hs.put("everday", "每一天");
+        hs.put("everday", "每一天");
         Scanner sc= new Scanner(System.in);
 
         while(true)
