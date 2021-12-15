@@ -17,6 +17,8 @@ public class translation {
         hs.put("Happy", "快乐");
         hs.put("everday", "每一天");
         hs.put("everday", "每一天");
+         hs.put("everday", "每一天");
+         hs.put("everday", "每一天");
         hs.put("everday", "每一天");
         hs.put("everday", "每一天");
         hs.put("everday", "每一天");
