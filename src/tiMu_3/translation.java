@@ -16,7 +16,8 @@ public class translation {
         hs.put("Hello", "你好");
         hs.put("Happy", "快乐");
         hs.put("everday", "每一天");
-         hs.put("everday", "wolaoceshile");
+        hs.put("everday", "每一天111111");
+
         Scanner sc= new Scanner(System.in);
 
         while(true)
