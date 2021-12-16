@@ -66,40 +66,43 @@ public class StudentDao {
             if(array.get(i).number.equals(number))
             {
                 System.out.println("请输入修改信息的序号：\n1：修改学号\n2：修改姓名\n3：修改年龄\n4：修改地址\n5：修改全部信息");
+
                 int index=sc.nextInt();
+
                 if(index==1)
                 {
                     System.out.println("请输入修改的学号值：");
-                    String num=sc.nextLine();
+                   // String num=sc.nextLine();
+                    String num=sc.next();
                     array.get(i).number=num;
                     System.out.println("修改成功!!");
                 }
                 if(index==2)
                 {
                     System.out.println("请输入修改的姓名值：");
-                    array.get(i).name=sc.nextLine();
+                    array.get(i).name=sc.next();
                     System.out.println("修改成功!!");
                 }
                 if(index==3)
                 {
                     System.out.println("请输入修改的年龄值：");
-                    array.get(i).age=sc.nextLine();
+                    array.get(i).age=sc.next();
                     System.out.println("修改成功!!");
                 }
                 if(index==4){
                     System.out.println("请输入修改的地址值：");
-                    array.get(i).address=sc.nextLine();
+                    array.get(i).address=sc.next();
                     System.out.println("修改成功!!");
                 }
                 if(index==5){
                     System.out.println("请输入修改的学号值：");
-                    array.get(i).number=sc.nextLine();
+                    array.get(i).number=sc.next();
                     System.out.println("请输入修改的姓名值：");
-                    array.get(i).name=sc.nextLine();
+                    array.get(i).name=sc.next();
                     System.out.println("请输入修改的年龄值：");
-                    array.get(i).age=sc.nextLine();
+                    array.get(i).age=sc.next();
                     System.out.println("请输入修改的地址值：");
-                    array.get(i).address=sc.nextLine();
+                    array.get(i).address=sc.next();
                     System.out.println("修改成功!!");
                 }
                 break;
