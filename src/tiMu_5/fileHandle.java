@@ -12,18 +12,20 @@ public class fileHandle {
     对路径展示出来。*/
 
     //  get AbsolutePath()  获取绝对路径
-    public void selectFile(String mulu,String core){
+    public static void selectFile(String mulu,String core){
         File file = new File(mulu);
         String[] list = file.list();
+        System.out.println("file为："+file);
         boolean flag=true;
-        for(String a:list){
-            if(a.equals(core)){
-                System.out.println(new File(mulu,core).getAbsolutePath());
-                flag=false;
-                break;
-            }
+        for (String a : list) {
+            System.out.println(a);//endwith();
+//            if (a.equals(core)) {
+//                System.out.println(new File(mulu, core).getAbsolutePath());
+//                flag = false;
+//                break;
+//            }
         }
-        if(!flag){
+        if (flag) {
             System.out.println("该目录下没有改文件，请重新输入");
         }
     }
@@ -44,6 +46,9 @@ public class fileHandle {
 
 //    （5）用户输入指令5，代表“退出”，即退出该系统。
     public static void main(String[] args) {
+    String file="D:\\Git-space";
+    String core="aaa.txt";
+        selectFile(file,core);
 
    }
 
